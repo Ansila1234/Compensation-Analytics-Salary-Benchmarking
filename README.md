@@ -13,32 +13,31 @@ To ensure accurate analysis, two datasets were used:
 + Lists average industry salaries per job title for comparison.
 + **Goal**: Help HR teams spot underpaid and overpaid employees.
 ### Data Processing in Excel
-✅ Power Query automated data cleaning, ensuring there were no duplicates, missing values, or inconsistencies.
-✅ Formula-Based Salary Calculation was implemented:
++ Power Query automated data cleaning, ensuring there were no duplicates, missing values, or inconsistencies.
++ Formula-Based Salary Calculation was implemented:
 
-Total Compensation = Base Salary + (Base Salary * Bonus %) + (Overtime Hours * Overtime Rate)
-✅ Market salaries were dynamically fetched using VLOOKUP and INDEX/MATCH for flexibility.
+**Total Compensation = Base Salary + (Base Salary * Bonus %) + (Overtime Hours * Overtime Rate)**
++ Market salaries were dynamically fetched using VLOOKUP and INDEX/MATCH for flexibility.
 
 # 3. Advanced Excel Techniques Used
 This project extensively used advanced Excel functions to transform raw data into a fully interactive dashboard.
 
-✅ Salary Benchmarking with VLOOKUP & INDEX/MATCH
-Compared employee salaries against market data.
-Used INDEX/MATCH instead of VLOOKUP to handle non-sequential job titles efficiently.
-✅ Pivot Tables & Pivot Charts for Insights
-Created department-wise compensation summaries.
-Used Pivot Tables to analyze salary trends based on experience.
-Developed Pivot Charts (Bar, Scatter, and Pie) to make insights visually compelling.
-✅ Conditional Formatting for Salary Insights
-Highlighted underpaid employees in RED (earning below 90% of the market benchmark).
-Marked highly paid employees in GREEN (earning 110%+ of the benchmark).
-Bonus discrepancies were flagged, helping HR restructure incentives.
-✅ Data Validation & Dropdowns for Filtering
-Created drop-down menus to dynamically filter compensation data by:
-Department
-Job Title
-Experience Level
-Allowed instant insights without manually changing the dataset.
+## Salary Benchmarking with VLOOKUP & INDEX/MATCH
++ Compared employee salaries against market data.
++ Used INDEX/MATCH instead of VLOOKUP to handle non-sequential job titles efficiently.
+## Pivot Tables & Pivot Charts for Insights
++ Created department-wise compensation summaries.
++ Used Pivot Tables to analyze salary trends based on experience.
++ Developed Pivot Charts (Bar, Scatter, and Pie) to make insights visually compelling.
+## Conditional Formatting for Salary Insights
++ Highlighted underpaid employees in RED (earning below 90% of the market benchmark).
++ Marked highly paid employees in GREEN (earning 110%+ of the benchmark).
++ Bonus discrepancies were flagged, helping HR restructure incentives.
+## Data Validation & Dropdowns for Filtering
++ Created drop-down menus to dynamically filter compensation data by:
+     + Department
+     + Job Title
+     + Experience Level
 
 # 4. Key Insights & Recommendations
 The Compensation Dashboard provided clear, data-driven insights for HR teams:
